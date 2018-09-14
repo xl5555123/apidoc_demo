@@ -54,7 +54,7 @@ public class DemoController {
      * @apiName addUser
      * @apiGroup Demo
      *
-     * @apiParam {String} 用户名,长度0-100
+     * @apiParam {String} id 用户名,长度0-100
      * @apiParamExample {json} Request-Example:
      * {
      *     "name": "johny"
