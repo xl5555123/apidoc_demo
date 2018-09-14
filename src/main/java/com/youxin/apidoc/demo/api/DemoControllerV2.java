@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/users")
-public class DemoController {
+@RequestMapping(value = "/usersV2")
+public class DemoControllerV2 {
     /**
      * @apiDefine UserNotFoundError
      *
@@ -24,7 +24,7 @@ public class DemoController {
 
     /**
      *
-     * @api {get} /users/:id 根据id请求用户信息
+     * @api {get} /usersV2/:id 根据id请求用户信息
      * @apiName getUser
      * @apiGroup 用户
      *
