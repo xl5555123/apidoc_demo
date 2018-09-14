@@ -42,6 +42,7 @@ public class DemoController {
      *
      * @apiUse UserNotFoundError
      *
+     * @apiVersion 2.0
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public UserDTO getUser(@PathVariable int id) {
@@ -70,6 +71,7 @@ public class DemoController {
      *      "name": "johny"
      *  }
      *
+     * @apiVersion 2.0
      */
     @RequestMapping(value = "", method = RequestMethod.POST)
     public UserDTO addUser(UserDTO userDTO) {
@@ -103,6 +105,7 @@ public class DemoController {
      *
      * @apiUse UserNotFoundError
      *
+     * @apiVersion 2.0
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
     public UserDTO updateUser(UserDTO userDTO, @PathVariable int id) {
@@ -122,6 +125,8 @@ public class DemoController {
      *  HTTP/1.1 200 OK
      *
      * @apiUse UserNotFoundError
+     *
+     * @apiVersion 2.0
      *
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
