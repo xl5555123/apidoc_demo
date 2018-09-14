@@ -51,7 +51,7 @@ public class DemoControllerV2 {
 
     /**
      *
-     * @api {post} /users 增加用户
+     * @api {post} /usersV2 增加用户
      * @apiName addUser
      * @apiGroup 用户
      *
@@ -80,7 +80,7 @@ public class DemoControllerV2 {
 
     /**
      *
-     * @api {post} /users/:id 修改用户
+     * @api {post} /usersV2/:id 修改用户
      * @apiName addUser
      * @apiGroup 用户
      *
@@ -115,11 +115,11 @@ public class DemoControllerV2 {
 
     /**
      *
-     * @api {post} /users/:id 删除用户
+     * @api {post} /usersV2/:id 删除用户
      * @apiName removeUser
      * @apiGroup 用户
      *
-     * @apiParam id {Number} 待删除用户Id
+     * @apiParam {Number} [id] 待删除用户Id
      *
      * @apiSuccessExample Success-Response:
      *  HTTP/1.1 200 OK

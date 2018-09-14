@@ -119,7 +119,7 @@ public class DemoController {
      * @apiName removeUser
      * @apiGroup 用户
      *
-     * @apiParam id {Number} 待删除用户Id
+     * @apiParam {Number} [id] 待删除用户Id
      *
      * @apiSuccessExample Success-Response:
      *  HTTP/1.1 200 OK
