@@ -42,8 +42,6 @@ public class DemoController {
      *
      * @apiUse UserNotFoundError
      *
-     * @param id
-     * @return 用户信息
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public UserDTO getUser(@PathVariable int id) {
@@ -56,7 +54,7 @@ public class DemoController {
      * @apiName addUser
      * @apiGroup Demo
      *
-     * @apiParam {String} 用户名，长度0-100
+     * @apiParam {String} 用户名,长度0-100
      * @apiParamExample {json} Request-Example:
      * {
      *     "name": "johny"
@@ -72,8 +70,6 @@ public class DemoController {
      *      "name": "johny"
      *  }
      *
-     * @param userDTO
-     * @return 新的用户对象
      */
     @RequestMapping(value = "", method = RequestMethod.POST)
     public UserDTO addUser(UserDTO userDTO) {
@@ -107,8 +103,6 @@ public class DemoController {
      *
      * @apiUse UserNotFoundError
      *
-     * @param userDTO
-     * @return 新的用户对象
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
     public UserDTO updateUser(UserDTO userDTO, @PathVariable int id) {
@@ -129,7 +123,6 @@ public class DemoController {
      *
      * @apiUse UserNotFoundError
      *
-     * @param id
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public void removeUser(@PathVariable int id) {
