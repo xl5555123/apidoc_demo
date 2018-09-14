@@ -80,8 +80,8 @@ public class DemoController {
 
     /**
      *
-     * @api {post} /users/:id 修改用户
-     * @apiName addUser
+     * @api {put} /users/:id 修改用户
+     * @apiName updateUser
      * @apiGroup 用户
      *
      * @apiParam {String} [name] 新的用户名，长度0-100
@@ -115,7 +115,7 @@ public class DemoController {
 
     /**
      *
-     * @api {post} /users/:id 删除用户
+     * @api {delete} /users/:id 删除用户
      * @apiName removeUser
      * @apiGroup 用户
      *
