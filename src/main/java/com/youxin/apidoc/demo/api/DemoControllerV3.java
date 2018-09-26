@@ -12,7 +12,7 @@ public class DemoControllerV3 {
 
     /**
      *
-     * @api {post} /usersV2 增加用户
+     * @api {post} /usersV3 增加用户
      * @apiName addUser
      * @apiGroup 用户
      *
@@ -20,7 +20,7 @@ public class DemoControllerV3 {
      * @apiParamExample {json} Request-Example:
      * {
      *     "name": "johny",
-     *      "age": 24
+     *     "age": 24
      * }
      *
      * @apiSuccess {Number} id   Users unique ID.

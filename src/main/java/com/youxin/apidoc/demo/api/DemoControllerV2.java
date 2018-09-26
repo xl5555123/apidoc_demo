@@ -42,7 +42,7 @@ public class DemoControllerV2 {
      *
      * @apiUse UserNotFoundError
      *
-     * @apiVersion 0.0.3
+     * @apiVersion 0.0.2
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public UserDTO getUser(@PathVariable int id) {
