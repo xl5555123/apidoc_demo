@@ -33,12 +33,7 @@ public class DemoControllerV2 {
      * @apiSuccess {Number} id   Users unique ID.
      * @apiSuccess {String} name   User name.
      *
-     * @apiSuccessExample Success-Response:
-     *  HTTP/1.1 200 OK
-     *  {
-     *      "id": 1,
-     *      "name": "johny"
-     *  }
+     * @apiUse UserDTO
      *
      * @apiUse UserNotFoundError
      *

@@ -1,5 +1,16 @@
 package com.youxin.apidoc.demo.dto;
 
+/**
+ * @apiDefine UserDTO
+ * @apiSuccess {Number} id   Users unique ID.
+ * @apiSuccess {String} name   User name.
+ * @apiSuccessExample Success-Response:
+ *   HTTP/1.1 200 OK
+ *   {
+ *      "id": 1,
+ *      "name": "johny"
+ *   }
+ */
 public class UserDTO {
     private int id;
 
