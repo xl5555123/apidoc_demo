@@ -35,7 +35,7 @@ public class DemoControllerV3 {
      *      "age": 24
      *  }
      *
-     * @apiVersion 0.0.2
+     * @apiVersion 0.0.3
      */
     @RequestMapping(value = "", method = RequestMethod.POST)
     public UserDTO addUser(UserDTO userDTO) {
